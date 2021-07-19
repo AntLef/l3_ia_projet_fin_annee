@@ -4,6 +4,9 @@
 
 Voir base de connaissance page 18 afin de connaitre les prérequis au bon fonctionnement des deux algorithmes.
 
+
+____
+
 ***Dossier computer vision :***
 
 J'ai prêté peu d'attention à cet algorithme : si le model du CNN avait pu être généré dans les temps, j'aurais ajouté la suppression du fond afin de cibler le premier plan et priorisé les teintes plutôt que les similitudes (les grands traits (propre à la race/espèce) étant déjà vérifié par le CNN). Cela dans l'objectif de pouvoir présenter des images similaires à un certains pourcentages à l'utilisateur. (Résultat relatif vu que computer vision pas adapté mais fonctionnel au vu du délais)
@@ -12,9 +15,12 @@ Cet algorithme n'est en aucun cas le meilleur choix mais plutôt un choix de sub
 
 Si les trois mois promis avaient été accordé, l'option logique aurait pu être envisagé et combiné à un CNN fonctionnel.
 
-____
+__
 
 fichier main.py    : algo comparant deux images et retournant un pourcentage
+
+
+____
 
 ***Dossier CNN :***
 
@@ -24,8 +30,11 @@ Les réglages de ces algos sont ceux d'un dataframe plus volumineux (réglages t
 
 L'objectif de cet algorithme est de générer un model visant à pouvoir identifier l'espèce, la race et la couleur de l'animal présent sur une photo. Cet algorithme servira en parallèle à un pré-tri pour l'algo de comparaison d'image.
 
-____
+__
+
 
 fichier _download.py    : télécharge des images
+
 fichier _params.py      : parametre pour le téléchargement des images et le cnn
+
 fichier training.ipynb  : cnn
