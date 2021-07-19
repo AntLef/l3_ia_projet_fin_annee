@@ -12,6 +12,10 @@ Cet algorithme n'est en aucun cas le meilleur choix mais plutôt un choix de sub
 
 Si les trois mois promis avaient été accordé, l'option logique aurait pu être envisagé et combiné à un CNN fonctionnel.
 
+____
+
+fichier main.py    : algo comparant deux images et retournant un pourcentage
+
 ***Dossier CNN :***
 
 L'algorithme présent n'a (à l'heure ou le readme a été push) pas fini de s'entrainer. Je ne peux donc pas affirmer si celui-ci est fonctionnel et entrainera bien un model pertinent ou si sa construction est erronée.
@@ -19,3 +23,9 @@ L'algorithme présent n'a (à l'heure ou le readme a été push) pas fini de s'e
 Les réglages de ces algos sont ceux d'un dataframe plus volumineux (réglages test), mais pour des raisons de volume, une bdd d'images plus légère a été push.
 
 L'objectif de cet algorithme est de générer un model visant à pouvoir identifier l'espèce, la race et la couleur de l'animal présent sur une photo. Cet algorithme servira en parallèle à un pré-tri pour l'algo de comparaison d'image.
+
+____
+
+fichier _download.py    : télécharge des images
+fichier _params.py      : parametre pour le téléchargement des images et le cnn
+fichier training.ipynb  : cnn
