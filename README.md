@@ -17,7 +17,7 @@ Si les trois mois promis avaient été accordé, l'option logique aurait pu êtr
 
 __
 
-fichier main.py    : algo comparant deux images et retournant un pourcentage
+* fichier main.py    : algo comparant deux images et retournant un pourcentage
 
 
 ____
@@ -33,8 +33,6 @@ L'objectif de cet algorithme est de générer un model visant à pouvoir identif
 __
 
 
-fichier _download.py    : télécharge des images
-
-fichier _params.py      : parametre pour le téléchargement des images et le cnn
-
-fichier training.ipynb  : cnn
+* fichier _download.py    : télécharge des images
+* fichier _params.py      : parametre pour le téléchargement des images et le cnn
+* fichier training.ipynb  : cnn
